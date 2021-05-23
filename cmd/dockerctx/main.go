@@ -45,6 +45,7 @@ func (op UnsupportedOp) Run() error {
 }
 
 var (
+	Version   = "v0.0.0+unkown"
 	options   DockerctxOptions
 	dockerctx = &cobra.Command{
 		Use:   "dockerctx",
@@ -84,7 +85,7 @@ func runCommand(cmd *cobra.Command, args []string) {
 func parseArgs(args []string, options DockerctxOptions) Op {
 	switch {
 	case *options.WantShowVersion:
-		return command.VersionOp{}
+		return command.VersionOp{Version: Version}
 	case *options.WantShowCurrentCtx:
 		return command.CurrentOp{}
 	default:

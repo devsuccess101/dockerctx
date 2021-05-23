@@ -4,14 +4,12 @@ import (
 	"fmt"
 )
 
-var (
-	version = "v0.0.0+unkown"
-)
+type VersionOp struct {
+	Version string
+}
 
-type VersionOp struct{}
-
-func (_op VersionOp) Run() error {
-	fmt.Println(version)
+func (op VersionOp) Run() error {
+	fmt.Println(op.Version)
 
 	return nil
 }

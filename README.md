@@ -1,11 +1,10 @@
-# swarmd
+# dockerctx
 
-This repository provides `dockerctx` tool.
-- `dockerctx` helps you switch between Docker contexts back and forth. Inspired by [`kubectx`](https://github.com/ahmetb/kubectx).
+`dockerctx` helps you switch between Docker contexts back and forth.
 
-## dockerctx
+Inspired by [`kubectx`](https://github.com/ahmetb/kubectx).
 
-Please download the `dockerctx` binary in [the latest release](https://github.com/kimyvgy/swarmd/releases).
+Please download the `dockerctx` binary in [the latest release](https://github.com/kimyvgy/dockerctx/releases).
 
 ```bash
 USAGE:

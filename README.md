@@ -1,10 +1,8 @@
 # dockerctx
 
-`dockerctx` helps you switch between Docker contexts back and forth.
+`dockerctx` helps you switch between Docker contexts back and forth. Inspired by [`kubectx`](https://github.com/ahmetb/kubectx).
 
-Inspired by [`kubectx`](https://github.com/ahmetb/kubectx).
-
-Please download the `dockerctx` binary in [the latest release](https://github.com/kimyvgy/dockerctx/releases).
+Please download the `dockerctx` binary in [the latest release](https://github.com/devsuccess101/dockerctx/releases).
 
 ```bash
 USAGE:
